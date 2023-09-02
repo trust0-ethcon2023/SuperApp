@@ -1,7 +1,8 @@
 =begin catalog
 
-=object panes: name=main, style=panes_main
+=object panes: id=panes.main, name=main, -focused-pane=P_MAIN_ACCOUNT, script-when-paging=on_panes_paging, style=panes_main
 
-=object cell: display-unit=S_HOME_TABBAR, style=cell_tabbar
+=object image: filename=bg_tabbar.png, style=img_tabbar
+=object cell: id=cell.tabbar, display-unit=S_HOME_TABBAR, style=cell_tabbar
 
 =end catalog

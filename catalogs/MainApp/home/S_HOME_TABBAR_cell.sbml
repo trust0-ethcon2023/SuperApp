@@ -1,3 +1,34 @@
 =begin cell
 
+=(object section: section=button.home, style=section_button)=\
+=(object section: section=button.wallet, style=section_button)=\
+=(object section: section=button.account, style=section_button)=
+
+=begin button: id=button.home
+=begin content
+=object button: id=btn.image.home, group=btn.home, script=go_home, image=btn_home_deselected.png, selected-image=btn_home_selected.png, style=btn_image
+=object button: id=btn.label.home, group=btn.home, script=go_homet, label="@{Home}", hidden=yes, style=btn_label
+=end content
+=object button: script=go_home, style=btn_tab
+=object blank: id=blank.line.home, hidden=yes, style=blank_line
+=end button
+
+=begin button: id=button.wallet
+=begin content
+=object button: id=btn.image.wallet, group=btn.wallet, script=go_wallet, image=btn_wallet_deselected.png, selected-image=btn_wallet_selected.png, style=btn_image
+=object button: id=btn.label.wallet, group=btn.wallet, script=go_wallet, label="@{Wallet}", hidden=yes, style=btn_label
+=end content
+=object button: script=go_wallet, style=btn_tab
+=object blank: id=blank.line.wallet, hidden=yes, style=blank_line
+=end button
+
+=begin button: id=button.account
+=begin content
+=object button: id=btn.image.account, group=btn.account, script=go_account, image=btn_account_deselected.png, selected-image=btn_account_selected.png, style=btn_image
+=object button: id=btn.label.account, group=btn.account, script=go_account, label="@{Account}", hidden=yes, style=btn_label
+=end content
+=object button: script=go_account, style=btn_tab
+=object blank: id=blank.line.account, hidden=yes, style=blank_line
+=end button
+
 =end cell
