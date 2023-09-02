@@ -1,0 +1,7 @@
+=begin catalog
+
+=object panes: name=main, style=panes_main
+
+=object cell: display-unit=S_HOME_TABBAR, style=cell_tabbar
+
+=end catalog
