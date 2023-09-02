@@ -1,0 +1,6 @@
+[submodule "catalogs/MainApp/Scripts/actions-helper"]
+	path = catalogs/MainApp/Scripts/actions-helper
+	url = https://github.com/jamkit-modules/actions-helper.git
+[submodule "catalogs/MainApp/Scripts/astaria-web3-sdk"]
+	path = catalogs/MainApp/Scripts/astaria-web3-sdk
+	url = https://github.com/astaria/astaria-web3-sdk.git

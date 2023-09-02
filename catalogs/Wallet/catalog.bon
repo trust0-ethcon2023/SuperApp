@@ -1,0 +1,7 @@
+{
+    "title": "Astaria SDK Wallet Catalog",
+    "version": "1.0",
+    "uses-database": "yes",
+    "database-version": "2.0",
+    "default-layout": "thumbnail"
+}

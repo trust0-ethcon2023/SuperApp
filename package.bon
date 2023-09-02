@@ -1,0 +1,13 @@
+{
+    id: io.trust0.Trust0
+    language: en,
+    version: 1.0,
+    title: "Trust0",
+    description: "All-in-One Multi Wallet", 
+    localization: {
+        ko: {
+            title: "트러스트제로",
+            description: "올인원 통합 지갑"
+        }
+    }
+}
