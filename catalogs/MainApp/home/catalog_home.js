@@ -29,3 +29,11 @@ function update_tabbar(tab) {
         "tab": tab || "main"
     });
 }
+
+function on_scan_qrcode(data) {
+    const url = data["text"].trim();
+
+    controller.action("app", {
+        "url": url
+    });
+}

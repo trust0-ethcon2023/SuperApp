@@ -6,6 +6,9 @@ $_GUIDE_SECTION_HEIGHT = 120dp
 $_GUIDE_SECTION_TOP_MARGIN = 10dp
 $_GUIDE_TEXT_SIZE = 1.2
 $_BUTTONS_BOTTOM_MARGIN = 60dp
+$_ACTION_BUTTON_WIDTH = 220dp
+$_ACTION_BUTTON_HEIGHT = 44dp
+$_ACTION_BUTTON_BORDER_RADIUS = 10dp
 
 #camera_scanner {
     width: 1pw;
@@ -56,6 +59,15 @@ $_BUTTONS_BOTTOM_MARGIN = 60dp
     position: absolute;
     gravity: top;
     y: $_SCANNER_BOUNDARY_SIZE+$_SCANNER_IMAGE_SIZE+$_GUIDE_SECTION_TOP_MARGIN;
+}
+
+#btn_action {
+    width: $_ACTION_BUTTON_WIDTH;
+    height: $_ACTION_BUTTON_HEIGHT;
+    label-font-family: @{$SANS_MEDIUM};
+    label-font-size: 1.2;
+    content-border-radius: $_ACTION_BUTTON_BORDER_RADIUS;
+    content-background-color: $COLOR_WHITE;
 }
 
 /popup/mask {

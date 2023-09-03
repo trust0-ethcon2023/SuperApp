@@ -15,10 +15,6 @@ function scan() {
     controller.action("popup", { "display-unit": "S_QRCODE_SCAN" });
 }
 
-function on_scan_qrcode(data) {
-
-}
-
 function _load_apps_section() {
     const packages = controller.module("packages");
 

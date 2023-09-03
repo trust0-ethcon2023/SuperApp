@@ -53,9 +53,5 @@ function on_connect(params) {
         // params["storage-path"] = leaflet.get_storage_path();
     }
 
-    if (wallet.is_account_selected()) {
-        connect.invoke(params["method"], params);
-    } else {
-        storage.value("DEFERRED_CONNECT_PARAMS", _deferred_connect_params = params);
-    }
+    connect.invoke(params["method"], params);
 }
