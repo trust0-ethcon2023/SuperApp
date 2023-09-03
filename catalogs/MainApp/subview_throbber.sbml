@@ -1,0 +1,5 @@
+=begin throbber
+
+=object effect: filename=throbber.json, style=effect_throbber
+
+=end throbber

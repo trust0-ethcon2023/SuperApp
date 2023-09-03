@@ -1,0 +1,14 @@
+import themes.sbss
+
+if $SCREEN_WIDTH > 4.7
+    $_THROBBER_EFFECT_SIZE = 100dp
+else
+    $_THROBBER_EFFECT_SIZE = 100dp
+end
+
+#effect_throbber {
+    width: $_THROBBER_EFFECT_SIZE;
+    height: $_THROBBER_EFFECT_SIZE;
+    position: abs;
+    gravity: center;
+}
