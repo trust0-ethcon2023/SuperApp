@@ -1,9 +1,9 @@
 import themes.sbss
 
 if $SCREEN_WIDTH > 4.7
-    $_THROBBER_EFFECT_SIZE = 100dp
+    $_THROBBER_EFFECT_SIZE = 240dp
 else
-    $_THROBBER_EFFECT_SIZE = 100dp
+    $_THROBBER_EFFECT_SIZE = 240dp
 end
 
 #effect_throbber {
