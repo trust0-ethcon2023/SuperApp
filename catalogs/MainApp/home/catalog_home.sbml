@@ -1,6 +1,6 @@
 =begin catalog
 
-=object panes: id=panes.main, name=main, -focused-pane=P_MAIN_ACCOUNT, script-when-paging=on_panes_paging, style=panes_main
+=object panes: id=panes.home, name=home, -focused-pane=P_HOME_ACCOUNT, script-when-paging=on_panes_paging, style=panes_main
 
 =object image: filename=bg_tabbar.png, style=img_tabbar
 =object cell: id=cell.tabbar, display-unit=S_HOME_TABBAR, style=cell_tabbar

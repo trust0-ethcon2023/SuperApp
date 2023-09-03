@@ -1,0 +1,91 @@
+import panes_home_pane_common.sbss
+
+$_HEADER_TOP_MARGIN = 40dp
+$_HEADER_BOTTOM_MARGIN = 20dp
+$_HEADER_SIDE_MARGIN = 30dp
+$_APPS_SIDE_MARGIN = 30dp
+$_FIND_SECTION_WIDTH = 220dp
+$_FIND_SECTION_HEIGHT = 70dp
+$_FIND_ICON_SIZE = 40dp
+$_FIND_ICON_MARGIN = 5dp
+$_APP_SECTION_WIDTH = 70dp
+$_APP_SECTION_HEIGHT = 90dp
+$_APP_SECTION_MARGIN = 10dp
+$_APP_LABEL_PADDING = 5dp
+$_APP_BORDER_RADIUS = 15dp
+
+#section_find {
+    width: $_FIND_SECTION_WIDTH;
+    height: $_FIND_SECTION_HEIGHT;
+    margin-right: $_APP_SECTION_MARGIN;
+    vertical-align: top;
+    content-background-color: $COLOR_BLACK;
+    content-border-radius: $_APP_BORDER_RADIUS;
+}
+
+#img_find {
+    width: $_FIND_ICON_SIZE;
+    height: $_FIND_ICON_SIZE;
+    margin-right: $_FIND_ICON_MARGIN;
+}
+
+#section_app {
+    width: $_APP_SECTION_WIDTH;
+    height: $_APP_SECTION_HEIGHT;
+    margin-right: $_APP_SECTION_MARGIN;
+    vertical-align: top;
+}
+
+#img_app {
+    width: 1pw;
+    height: 1pw;
+    default-image: icon_empty_app.png;
+    content-border-radius: $_APP_BORDER_RADIUS;
+}
+
+#label_app {
+    width: 1pw;
+    height: 100%;
+    font-family: @{$SANS_MEDIUM};
+    font-size: 1.1;
+    text-align: center;
+    content-padding: 0 $_APP_LABEL_PADDING;
+    line-break-mode: tail-truncation;
+}
+
+#btn_app {
+    width: 1pw;
+    height: 1ph;
+    position: absolute;
+    gravity: center;
+}
+
+/sbml/header {
+    margin: $_HEADER_TOP_MARGIN $_HEADER_SIDE_MARGIN $_HEADER_BOTTOM_MARGIN $_HEADER_SIDE_MARGIN;
+    font-family: @{$SANS_SEMIBOLD};
+    font-size: 1.7;
+    text-color: #AAAAAA;
+}
+
+/sbml/apps {
+    margin: 0 $_APPS_SIDE_MARGIN;
+}
+
+/sbml/find {
+    display: none;
+}
+
+/sbml/find/content {
+    display: block;
+    position: absolute;
+    gravity: center;
+    text-align: center;
+    vertical-align: middle;
+    font-family: @{$SANS_MEDIUM};
+    font-size: 1.2;
+    text-color: $COLOR_WHITE;
+}
+
+/sbml/app {
+    display: none;
+}

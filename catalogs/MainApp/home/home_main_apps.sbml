@@ -1,0 +1,52 @@
+=begin sbml
+
+=begin header
+Your Decentralized
+Apps
+=end header
+
+=begin apps
+=(object section: section=find, style=section_find)=\
+=(object section: section=app.1, style=section_app)=
+=(object section: section=app.2, style=section_app)=\
+=(object section: section=app.3, style=section_app)=\
+=(object section: section=app.4, style=section_app)=\
+=(object section: section=app.more, style=section_app)=
+=end apps
+
+=begin find: id=find
+=begin content
+=(object image: filename=icon_find.png, style=img_find)= Find More DApps
+=end content
+=end find
+
+=begin app: id=app.1
+=object image: type=app, app="${app.1-id}", style=img_app
+=object label: text="${app.1-title}", style=label_app
+=object button: action=app, app="${app.1-id}", style=btn_app
+=end app
+
+=begin app: id=app.2
+=object image: type=app, app="${app.2-id}", style=img_app
+=object label: text="${app.2-title}", style=label_app
+=object button: action=app, app="${app.2-id}", style=btn_app
+=end app
+
+=begin app: id=app.3
+=object image: type=app, app="${app.3-id}", style=img_app
+=object label: text="${app.3-title}", style=label_app
+=object button: action=app, app="${app.3-id}", style=btn_app
+=end app
+
+=begin app: id=app.4
+=object image: type=app, app="${app.4-id}", style=img_app
+=object label: text="${app.4-title}", style=label_app
+=object button: action=app, app="${app.4-id}", style=btn_app
+=end app
+
+=begin app: id=app.more
+=object image: filename=btn_more_apps.png, style=img_app
+=object button: style=btn_app
+=end app
+
+=end sbml

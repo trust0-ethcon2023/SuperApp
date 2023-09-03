@@ -1,0 +1,34 @@
+import panes_home_pane_common.sbss
+
+$_PROFILE_IMAGE_SIZE = 36dp
+$_PROFILE_IMAGE_MARGIN = 6dp
+$_ADDRESS_LABEL_WIDTH = 120dp
+
+#img_profile {
+    width: $_PROFILE_IMAGE_SIZE;
+    height: $_PROFILE_IMAGE_SIZE;
+    margin-right: $_PROFILE_IMAGE_MARGIN;
+    content-border-radius: $_PROFILE_IMAGE_SIZE/2;
+    default-color: #DDDDDD;
+}
+
+#label_address {
+    width: $_ADDRESS_LABEL_WIDTH;
+    height: $_PROFILE_IMAGE_SIZE;
+    line-break-mode: middle-truncation;
+    font-family: @{$SANS_MEDIUM};
+    font-size: 1.2;
+    text-color: $THEME_COLOR_TEXT;
+}
+
+#btn_action {
+    width: 1pw;
+    height: 1ph;
+    position: absolute;
+    gravity: center;
+}
+/sbml/content {
+    display: block;
+    position: absolute;
+    gravity: center;
+}

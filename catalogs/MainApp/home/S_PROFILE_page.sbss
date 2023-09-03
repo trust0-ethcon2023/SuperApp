@@ -1,0 +1,5 @@
+import ~/themes.sbss
+
+/page {
+    page-background-color: $COLOR_WHITE;
+}

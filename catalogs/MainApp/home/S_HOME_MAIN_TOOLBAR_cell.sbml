@@ -1,0 +1,7 @@
+=begin cell
+
+=begin content
+=(object button: image=btn_tool_scan.png, script=scan, style=btn_tool)=
+=end content
+
+=end cell

@@ -1,0 +1,37 @@
+import ~/themes.sbss
+
+$_CONTENT_SIDE_MARGIN = 17dp
+$_HEADER_HEIGHT = 60dp
+$_TOOLBAR_CELL_WIDTH = 120dp
+$_TOOLBAR_CELL_HEIGHT = 44dp
+
+#section_header {
+    width: 1pw;
+    height: $_HEADER_HEIGHT;
+    margin-top: 1sbh;
+}
+
+#cell_toolbar {
+    width: $_TOOLBAR_CELL_WIDTH;
+    height: $_TOOLBAR_CELL_HEIGHT;
+}
+
+/pane/header {
+    display: none;
+}
+
+/pane/header/left {
+    display: block;
+    position: absolute;
+    gravity: left;
+    padding-left: $_CONTENT_SIDE_MARGIN;
+    text-align: left;
+}
+
+/pane/header/right {
+    display: block;
+    position: absolute;
+    gravity: right;
+    padding-right: $_CONTENT_SIDE_MARGIN;
+    text-align: right;
+}

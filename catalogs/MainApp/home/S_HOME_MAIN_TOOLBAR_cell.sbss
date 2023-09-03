@@ -1,0 +1,17 @@
+import ~/themes.sbss
+
+$_TOOL_BUTTON_SIZE = 44dp
+$_TOOL_BUTTON_MARGIN = 0
+
+#btn_tool {
+    width: $_TOOL_BUTTON_SIZE;
+    height: $_TOOL_BUTTON_SIZE;
+    margin-left: $_TOOL_BUTTON_MARGIN;
+}
+
+/cell/content {
+    display: block;
+    position: absolute;
+    gravity: right;
+    text-align: right;
+}

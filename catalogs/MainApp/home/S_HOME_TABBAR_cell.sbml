@@ -1,16 +1,17 @@
 =begin cell
 
-=(object section: section=button.home, style=section_button)=\
+=begin buttons
+=(object section: section=button.main, style=section_button)=\
 =(object section: section=button.wallet, style=section_button)=\
 =(object section: section=button.account, style=section_button)=
+=end buttons
 
-=begin button: id=button.home
+=begin button: id=button.main
 =begin content
-=object button: id=btn.image.home, group=btn.home, script=go_home, image=btn_home_deselected.png, selected-image=btn_home_selected.png, style=btn_image
-=object button: id=btn.label.home, group=btn.home, script=go_homet, label="@{Home}", hidden=yes, style=btn_label
+=object button: id=btn.image.main, group=btn.main, script=go_home, image=btn_home_deselected.png, selected-image=btn_home_selected.png, style=btn_image
+=object button: id=btn.label.main, group=btn.main, script=go_home, label="@{Home}", hidden=yes, style=btn_label
 =end content
 =object button: script=go_home, style=btn_tab
-=object blank: id=blank.line.home, hidden=yes, style=blank_line
 =end button
 
 =begin button: id=button.wallet
@@ -19,7 +20,6 @@
 =object button: id=btn.label.wallet, group=btn.wallet, script=go_wallet, label="@{Wallet}", hidden=yes, style=btn_label
 =end content
 =object button: script=go_wallet, style=btn_tab
-=object blank: id=blank.line.wallet, hidden=yes, style=blank_line
 =end button
 
 =begin button: id=button.account
@@ -28,7 +28,6 @@
 =object button: id=btn.label.account, group=btn.account, script=go_account, label="@{Account}", hidden=yes, style=btn_label
 =end content
 =object button: script=go_account, style=btn_tab
-=object blank: id=blank.line.account, hidden=yes, style=blank_line
 =end button
 
 =end cell

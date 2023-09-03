@@ -1,0 +1,15 @@
+=begin pane: script-when-loaded=on_loaded
+
+=object section: section=header, style=section_header
+=begin header: id=header
+=begin left
+=(object sbml: filename=home_main_profile.sbml, style=sbml_profile)=
+=end left
+=begin right
+=(object cell: id=cell.toolbar, display-unit=S_HOME_MAIN_TOOLBAR, style=cell_toolbar)=
+=end right
+=end header
+
+=object sbmls: id=sbmls.content, scrolls-when-loading=no, style=sbmls_content
+
+=end pane

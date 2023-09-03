@@ -1,0 +1,14 @@
+import panes_home_pane_common.sbss
+
+$_PROFILE_SBML_WIDTH = 1pw-100dp
+$_PROFILE_SBML_HEIGHT = 44dp
+
+#sbml_profile {
+    width: $_PROFILE_SBML_WIDTH;
+    height: $_PROFILE_SBML_HEIGHT;
+}
+
+#sbmls_content {
+    width: 1pw;
+    height: 100%;
+}

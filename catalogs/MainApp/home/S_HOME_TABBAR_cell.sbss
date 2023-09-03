@@ -1,17 +1,17 @@
 import ~/themes.sbss
 
+$_NUMBER_OF_BUTTONS = 3
 $_BUTTON_WIDTH = 80dp
 $_BUTTONS_SIDE_MARGIN = 70dp
 $_IMAGE_BUTTON_HEIGHT = 56dp
 $_IMAGE_BUTTON_BOTTOM_MARGIN = -5dp
 $_LABEL_BUTTON_HEIGHT = 16dp
 $_LABEL_BUTTON_TEXT_SIZE = 0.9
-$_LINE_BLANK_WIDTH = 40dp
-$_LINE_BLANK_HEIGHT = 2dp
 
 #section_button {
     width: $_BUTTON_WIDTH;
     height: 1ph;
+    margin: 0 (1pw-$_BUTTON_WIDTH*$_NUMBER_OF_BUTTONS)/($_NUMBER_OF_BUTTONS+1)
 }
 
 #btn_image {
@@ -36,15 +36,6 @@ $_LINE_BLANK_HEIGHT = 2dp
     height: 1ph;
     position: absolute;
     gravity: center;
-}
-
-#blank_line {
-    width: $_LINE_BLANK_WIDTH;
-    height: $_LINE_BLANK_HEIGHT;
-    position: absolute;
-    gravity: bottom;
-    content-border-radius: $_LINE_BLANK_HEIGHT/2;
-    color: $THEME_COLOR_MAIN_STRONG;
 }
 
 /cell {

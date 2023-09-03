@@ -22,7 +22,7 @@ const module = (() => {
     return {
         confirm: (message, ok_label) => {
             return new Promise((resolve, reject) => {
-                var [ resolve_name, reject_name ] = _promise_callbacks(resolve, reject);
+                const [ resolve_name, reject_name ] = _promise_callbacks(resolve, reject);
 
                 controller.catalog().submit("showcase", "others", "S_CONFIRM", {
                     "message": message,
@@ -36,7 +36,7 @@ const module = (() => {
 
         yes_or_no: (message) => {
             return new Promise((resolve, reject) => {
-                var [ resolve_name, reject_name ] = _promise_callbacks(resolve, reject);
+                const [ resolve_name, reject_name ] = _promise_callbacks(resolve, reject);
 
                 controller.catalog().submit("showcase", "others", "S_CONFIRM", {
                     "message": message,

@@ -17,6 +17,7 @@ $_MAIN_BUTTON_SIZE = 60dp
     position: absolute;
     gravity: bottom;
     scale-mode: stretch;
+    default-color: $COLOR_WHITE;
 }
 
 #cell_tabbar {

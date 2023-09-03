@@ -1,0 +1,27 @@
+=begin popup
+
+=object camera: metadata-enabled=yes, qrcode-enabled=yes, \
+        autofocus=yes, continuous-autofocus=yes, focus-closely=yes, \
+        script-when-output@metadata=on_scan, \
+        style=camera_scanner
+
+=object section: section=mask, style=section_mask
+
+=begin mask: id=mask
+=(object blank: style=blank_mask.1)=
+=(object blank: style=blank_mask.2)=\
+=(object image: filename="scanner.png", style=img_scanner)=\
+=(object blank: style=blank_mask.3)=
+=(object blank: style=blank_mask.4)=
+
+=object section: section=guide, style=section_guide
+=begin guide: id=guide
+@{Place the QR code inside the frame.}
+=end guide
+=end mask
+
+=begin actions
+=object button: action=popup-close, label="@{Cancel}", style=btn_action
+=end actions
+
+=end popup

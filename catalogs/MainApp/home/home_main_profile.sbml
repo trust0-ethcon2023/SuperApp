@@ -1,0 +1,10 @@
+=begin sbml
+
+=begin content
+=(object image: filename=img_profile_small.png, style=img_profile)=\
+=(object label: text="0xE6Cdc0739107D92D009C5784e1780147045936F1", style=label_address)=
+=end content
+
+=object button: script=go_profile, style=btn_action
+
+=end sbml

@@ -1,10 +1,10 @@
 const module = (() => {
     const modules = [ "accounts", "wallet", "web3", "telegram" ];
 
-    return modules.reduce(function(exports, name) {
+    return modules.reduce((exports, name) => {
         const module = include("./" + name + "/index.js");
 
-        Object.keys(module).forEach(function(key) {
+        Object.keys(module).forEach((key) => {
             exports[name + "_" + key] = module[key];
         });
 
